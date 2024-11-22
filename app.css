@@ -1,0 +1,64 @@
+/* Home Page*/
+.MG a {
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 27px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.heading{
+    color: white;
+    text-align:center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg_img {
+    background-image: url('./Pictures&Videos/Img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*........................*/
+footer {
+    background-color: rgb(12, 12, 12);
+    max-height: 65px;
+    text-align: center;
+    padding: 1px;
+}
+footer li,a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 3px;
+}
