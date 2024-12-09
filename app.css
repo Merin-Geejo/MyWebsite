@@ -5,7 +5,7 @@
     position: absolute;
     padding: 27px;
     text-decoration: none;
-    color: aliceblue;
+    color: black;/*Change when when adding javascript*/
 }
 
 .navbar {
@@ -22,7 +22,7 @@
 
 .navbar a {
     text-decoration: none;
-    color: aliceblue;
+    color: black;/*Change when when adding javascript to white*/
 }
 
 .home {
@@ -47,8 +47,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
+/*header*/
+header{
+    min-height: 25px;
+}
 /*........................*/
 footer {
     background-color: rgb(12, 12, 12);
@@ -61,4 +63,7 @@ footer li,a{
     text-decoration: none;
     list-style-type: none;
     padding: 3px;
+}
+.portfolio a{
+    color: black;
 }
