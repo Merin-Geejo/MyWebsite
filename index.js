@@ -6,10 +6,10 @@ $(function () {
 function DisplayPortfolioPage() {
     const projectData = [
         { title: 'Portfolio Website', description: 'The portfolio comes with the small summary of who I am and what I like to do..', image: "./Pictures&Videos/Project_1.png", link: "./Portfolio/project_1/index.html" },
-        { title: 'Harmony Hub', description: 'This website is a group project done as the part of my web development course in Durham College', image: "./Pictures&Videos/groupProject.png", link: "https://github.com/merryviji/Full-stack-Developemnt" },
-        { title: 'Dicee Game', description: 'A mini-game that runs when the webpage is reloaded. The player with the highest number wins.', image: "./Pictures&Videos/Project_2.png", link: "Portfolio/project_2/index.html" },
-        { title: 'Drum Kit', description: 'The webpage allows you to click or hit the correct keys to play music.', image: "./Pictures&Videos/Project_3.png", link: "Portfolio/project_3/index.html" },
-        { title: 'Simon Game', description: 'A mini-version of the Simon game.', image: "./Pictures&Videos/Project_4.png", link: "Portfolio/project_4/index.html" }
+        { title: 'Harmony Hub', description: 'This website is a group project done as the part of my web development course in Durham College.', image: "./Pictures&Videos/groupProject.png", link: "https://github.com/merryviji/Full-stack-Developemnt" },
+        { title: 'Dicee Game', description: 'A mini-game that runs when the webpage is reloaded. The player with the highest number wins.', image: "./Pictures&Videos/Project_2.png", link: "./Portfolio/project_2/index.html" },
+        { title: 'Drum Kit', description: 'The webpage allows you to click or hit the correct keys to play music.', image: "./Pictures&Videos/Project_3.png", link: "./Portfolio/project_3/index.html" },
+        { title: 'Simon Game', description: 'A mini-version of the Simon game.', image: "./Pictures&Videos/Project_4.png", link: "./Portfolio/project_4/index.html" }
     ];
 
     const projectContainer = document.getElementById("projects-container");
