@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     min-height: 100vh;
     background-color: rgb(0, 0, 0);
@@ -11,35 +10,6 @@ p{
     color: white;
 }
 /* Home Page*/
-=======
-/* Home Page*/
-.MG a {
-    top: 0;
-    left: 0;
-    position: absolute;
-    padding: 27px;
-    text-decoration: none;
-    color: black;/*Change when when adding javascript*/
-}
-
-.navbar {
-    top: 0;
-    right: 0;
-    position: absolute;
-}
-
-.navbar li {
-    display: inline-block;
-    padding: 10px;
-    list-style-type: none;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: black;/*Change when when adding javascript to white*/
-}
-
->>>>>>> 475bc9eb17fcfde11256be83dbc926e01e3d2e90
 .home {
     top: 50%;
     left: 50%;
@@ -57,7 +27,6 @@ p{
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
 .heading h1,h2{
     font-family: "Satisfy", cursive;
     font-weight: 200;
@@ -70,31 +39,12 @@ p{
 }
 
 /*........................*/
-=======
-.bg_img {
-    background-image: url('./Pictures&Videos/Img1.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/*header*/
-header{
-    min-height: 25px;
-}
-/*........................*/
-footer {
-    background-color: rgb(12, 12, 12);
-    max-height: 65px;
-    text-align: center;
-    padding: 1px;
-}
->>>>>>> 475bc9eb17fcfde11256be83dbc926e01e3d2e90
 footer li,a{
     color: aliceblue;
     text-decoration: none;
     list-style-type: none;
     padding: 3px;
 }
-<<<<<<< HEAD
 footer {
     max-height: 65px;
     text-align: center;
@@ -175,8 +125,4 @@ h3 {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 15px rgba(245, 245, 244, 0.6); /* Add a "glow" effect */
     border-color: rgb(240, 240, 237);
-=======
-.portfolio a{
-    color: black;
->>>>>>> 475bc9eb17fcfde11256be83dbc926e01e3d2e90
 }
