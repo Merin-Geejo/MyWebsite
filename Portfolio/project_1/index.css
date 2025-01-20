@@ -47,16 +47,19 @@ h3,h2{
 
 }
 .skills img{
-    width: 160px;
-    height: 160px;
+    width: 50%;
+    max-width: 160px;
+    height: auto;
     border-radius: 50%;
     float: left;
+    margin: 0 auto;
 }  
 .skills h3{
     text-align: left;
 }
 .skills{
-    width: 50%;
+    width: 80%;
+    max-width: 600px;
     margin: auto;
     display: grid;
     grid-template-columns: 0.30fr 1fr;
@@ -65,8 +68,24 @@ h3,h2{
     row-gap: 2rem;
 }
 h2{
-        color: rgb(8, 237, 234);
+    color: rgb(8, 237, 234);
+}
+@media (max-width: 768px) {
+    .skills {
+      width: 90%;
+      grid-template-columns: 1fr;
+      text-align: center;
     }
+  
+    .skills img {
+      float: none;
+      margin: 0 auto;
+    }
+  
+    .skills h3 {
+      text-align: center;
+    }
+  }
 .contact{
     padding: 40px 0px 40px 0px;
 }
